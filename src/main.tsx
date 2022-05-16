@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import App from './App'
+import { App } from './App'
 import './index.css'
 import Expenses from './routes/expenses'
 import Invoice from './routes/invoice'
@@ -36,5 +36,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </Route>
     </Routes>
   </BrowserRouter>
-  </React.StrictMode>
+</React.StrictMode>
 )

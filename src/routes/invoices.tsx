@@ -36,7 +36,7 @@ export default function Invoices() {
           .map((invoice) => (
             <QueryNavLink
               key={invoice.number}
-              style={({ isActive }) => {
+              style={({ isActive }: { isActive: boolean }) => {
                 return {
                   display: 'block',
                   margin: '1rem 0',
